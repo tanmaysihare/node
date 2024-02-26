@@ -45,6 +45,6 @@ const requestHandler = (req,res)=>{
     res.write('</body>');
     res.write('</html>');
     res.end();
-       }
+  }
 };
 exports.handler = requestHandler;
